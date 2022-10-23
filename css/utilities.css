@@ -58,8 +58,8 @@ a.icon-link:hover {
 /* Button Styling */
 
 a.button {
-  padding: 8px 16px;
-  border: 3px solid #141414;
+  /*padding: 3px 10px;*/
+  border: 2px solid white;
   border-radius: 50px;
   color: black;
   text-decoration: none;
@@ -71,7 +71,7 @@ a.button {
 
 a.button:hover {
   text-decoration: underline;
-  text-decoration-thickness: 2px;
+  text-decoration-thickness: 1px;
   cursor: pointer;
 }
 

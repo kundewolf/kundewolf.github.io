@@ -12,6 +12,11 @@ body {
   font-weight: 700;
 }
 
+.button-text-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
 .image-caption {
   font-size: 14px;
   font-weight: 500;
@@ -28,7 +33,19 @@ body {
   font-weight: 700;
 }
 
+.subheader-text-it {
+  font-size: 20px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
 .body-text {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.body-text-it {
   font-size: 16px;
   font-weight: 500;
 }
