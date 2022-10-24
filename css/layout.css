@@ -74,8 +74,17 @@ body {
   gap: 34px;
 }
 
+#exhibitions-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 
-
+.exhibitions-section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
 
 /* Project Section */
 

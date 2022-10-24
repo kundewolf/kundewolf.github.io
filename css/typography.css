@@ -1,5 +1,5 @@
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Arial", Helvetica, Arial, sans-serif;
 }
 
 .nav-title {
@@ -23,7 +23,7 @@ body {
 }
 
 .main-title {
-  font-size: 25px;
+  font-size: 26px;
   font-weight: 700;
   color: #dedaeb
 }
@@ -48,6 +48,18 @@ body {
 .body-text-it {
   font-size: 16px;
   font-weight: 500;
+  font-style: italic;
+}
+
+.body-text-b {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.body-text-bi {
+  font-size: 16px;
+  font-weight: 700;
+  font-style: italic;
 }
 
 .project-card-text {
