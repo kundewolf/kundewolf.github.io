@@ -19,6 +19,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<link rel="stylesheet" href="./css/layout.css">
+		<link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/typography.css">
     <link rel="stylesheet" href="./css/utilities.css">
 
@@ -67,37 +68,31 @@
         <div id="portfolio-header-text-container">
             <div class="header-text">
               <span class="main-title">Einmal haben wir im Fluss ein graues Rohr gesehen, aber es war ein riesiger Fisch, probably ein Wels. Wollten das Plastik im Wasser filmen, also hatten wir keinen Fisch erwartet, bah. Als wir später nach den “Homes for Ideonella” schauten, im Auwald, und sie nicht mehr da waren, fragten wir uns ob es die Förster*innen oder Kinder waren, die den natürlichen Lauf der Evolution unterbrochen hatten. Aber in der Alten Münze, lol, ist das Epoxidharz und Mikroplastik für immer drin. Die Waschkapseln haben wir nach der Performance bei dm zurückgegeben. Entspannt.</span>
-							<br />
-							<br />
+							<br/>
 							<br />
 							<div class="body-text"> Installation, Performance, Collective</div>
+							<a class="button" href="#my-work-section">
+	              <span class="button-text-title">Projects</span>
+	              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+	            </a>
+							<a class="button" href="#exhibition-section">
+								<span class="button-text-title">Exhibitions</span>
+								<image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+							</a>
+							<a class="button" href="#about-section">
+								<span class="button-text-title">About</span>
+								<image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+							</a>
             </div>
-            <a class="button" href="#my-work-section">
-              <span class="button-text-title">Projects</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-						<a class="button" href="#exhibition-section">
-							<span class="button-text-title">Exhibitions</span>
-							<image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-						</a>
-						<a class="button" href="#about-section">
-							<span class="button-text-title">About</span>
-							<image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-						</a>
-
         </div>
       </div>
 
 
 
       <!-- PROJECTS / MY WORK SECTION -->
-			<br>
-			<br />
       <div id="my-work-section">
         <!-- TODO - Change the subheader-text to whatever you want the Projects section header to say -->
         <span class="subheader-text">Projects</span>
-
-				<br />
         <div class="projects-container">
           <!--
             TODO
@@ -121,17 +116,15 @@
                 - SMALL_PROJECT_DESCRIPTION: a quick project description (max 4 lines)
                 - PROJECT_PAGE_NAME.html: the html filename for the project (must be in project-pages folder)
           -->
-
-          <div class="project-card">
-            <img src="./assets/images/die_packaging_performance/die_packaging_performance_kunde_wolf.jpeg" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">die packaging performance</div>
-              <div class="body-text project-card-text">performance, 2022, exhibition kollektiv blaue stunde</div>
-            </div>
-            <a class="button" href="./project-pages/die_packaging_performance.html">
-              <span class="button-text">Read More</span>
-            </a>
-          </div>
+					<div class="project-card">
+						<img src="./assets/images/die_packaging_performance/die_packaging_performance_kunde_wolf.jpeg" class="project-image">
+						<div class="project-card-text-container">
+							<a class="button" href="./project-pages/die_packaging_performance.html">
+								<span class="button-text-title">die packaging performance</span>
+							</a>
+							<div class="body-text project-card-text">2022, Performance, exhibition kollektiv blaue stunde</div>
+						</div>
+					</div>
 
 					<div class="project-card">
             <img src="./assets/images/glitchko/glitchko_kunde_wolf.jpeg" class="project-image">
@@ -139,7 +132,7 @@
 							<a class="button" href="./project-pages/GLITCHKO.html">
 	              <span class="button-text-title">GLITCHKO</span>
 	            </a>
-              <div class="body-text project-card-text">performance, 2021, Werk 2, Halle A, Leipzig</div>
+              <div class="body-text project-card-text">2021, Performance, Werk 2, Halle A, Leipzig</div>
             </div>
           </div>
 
@@ -176,12 +169,8 @@
 				- Change the subheader-text to whatever header you want
 				- Add paragraphs using the <div class="body-text"></div> elements in the "about-section-content"
 			-->
-			<br>
-			<br />
 			<div id="exhibition-section">
-
-				<span class="subheader-text">Exhibitions</span>
-				<br />
+				<span class="subheader-text">Exhibition</span>
 				<br />
 				<div class="about-section-content">
 					<div class="body-text">How can we connect art and science?</div>
@@ -196,8 +185,7 @@
 				- Change the subheader-text to whatever header you want
 				- Add paragraphs using the <div class="body-text"></div> elements in the "about-section-content"
 			-->
-			<br>
-			<br />
+
 			<div id="about-section">
 				<span class="subheader-text">About</span>
 				<br />

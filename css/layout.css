@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
 }
@@ -47,7 +48,7 @@ body {
 
 .portfolio-header-image {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 #portfolio-header-text-container {
@@ -74,13 +75,13 @@ body {
   gap: 34px;
 }
 
-#exhibitions-section {
+#exhibition-section {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.exhibitions-section-content {
+.exhibition-section-content {
   display: flex;
   flex-direction: column;
   gap: 34px;
